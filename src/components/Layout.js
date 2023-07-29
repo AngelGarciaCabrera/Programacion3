@@ -10,7 +10,8 @@ function Layout(props) {
                     <a className="navbar-brand" href="#">
                         <img src="foto.png" alt="Logo" width="50" height="40"
                              className="d-inline-block align-text-top" />
-                            <span className={'text-white'}> Tus Publicaciones Web</span>
+
+                            <span className={'text-white'}> Tus Publicaciones Web </span>
                     </a>
                 </div>
             </nav>
