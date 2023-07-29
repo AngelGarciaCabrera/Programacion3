@@ -36,7 +36,7 @@ function Registro() {
                 }).then(() => {
                     const userCollection = collection(firestoreInstance, 'users');
 
-                    addDoc(userCollection, {...usuario, clave: '', userId: auth.currentUser.uid}).then(() => {
+                    addDoc(userCollection, {...usuario, userId: auth.currentUser.uid}).then(() => {
                         navigate('/')
                     }).catch(() => {
                         errorMessage();

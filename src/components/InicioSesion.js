@@ -21,6 +21,7 @@ function InicioSesion() {
         toast.success("Coronamos!", toastConfig)
       }).catch((e) => {
         toast.error(e.message, toastConfig)
+        
       })
     } catch (error) {
       setError(error.message);
