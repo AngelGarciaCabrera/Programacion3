@@ -8,6 +8,7 @@ import {useNavigate} from "react-router-dom";
 
 const auth = getAuth(app);
 
+
 function Registro() {
 
     const [usuario, setUsuario] = useState({});
