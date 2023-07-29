@@ -51,6 +51,7 @@ function Registro() {
     ;
 
     return (
+        //registros y muestras de datos
         <div className="text-center">
             <h4>Registrarse:</h4>
             <form onSubmit={handleSubmit} className="mx-auto" style={{maxWidth: "300px", padding: "1rem"}}>
